@@ -8,7 +8,7 @@ Generates a webpage that maps out a team based on input given by the user.
 * Has an icon and coloring to show the different employees.
 
 ## Potential Future Upgrades
-* Better error handling, currently not acknowledging any errors, like blank input.
+* Better error handling, currently only acknowledges blank input and informs user to correct it.
 * Allow user to add their own fields to be displayed.
 * Allow user to remove fields they consider unnecessary, for example, employee number may not be necessary but it was in the original specifications.
 * Add new employee types and icons, such as testers, QA, product owner, scrum master, tech lead, etc.
