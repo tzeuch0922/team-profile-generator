@@ -22,22 +22,70 @@ const managerPrompt =
     {
         type: 'input',
         name: 'name',
-        message: "What's the team manager's name?"
+        message: "What's the team manager's name?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the manager's name!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'id',
-        message: "What's the manager's employee id?"
+        message: "What's the manager's employee id?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the manager's employee id!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'email',
-        message: "What's the manager's email?"
+        message: "What's the manager's email?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the manager's email!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'office',
-        message: "What's the managers' office number?"
+        message: "What's the managers' office number?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the manager's office number!");
+                return false;
+            }
+        }
     }
 ];
 
@@ -47,22 +95,70 @@ const engineerPrompt =
     {
         type: 'input',
         name: 'name',
-        message: "What's the engineer's name?"
+        message: "What's the engineer's name?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the engineer's name!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'id',
-        message: "What's the engineer's employee id?"
+        message: "What's the engineer's employee id?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the engineer's employee id!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'email',
-        message: "What's the engineer's email?"
+        message: "What's the engineer's email?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the engineer's email!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'github',
-        message: "What's the engineer's github username?"
+        message: "What's the engineer's github username?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the engineer's github username!");
+                return false;
+            }
+        }
     }
 ];
 
@@ -72,22 +168,70 @@ const internPrompt =
     {
         type: 'input',
         name: 'name',
-        message: "What's the intern's name?"
+        message: "What's the intern's name?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the intern's name!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'id',
-        message: "What's the intern's employee id?"
+        message: "What's the intern's employee id?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the intern's employee id!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'email',
-        message: "What's the intern's email?"
+        message: "What's the intern's email?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the intern's email!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'school',
-        message: "What's the intern's school?"
+        message: "What's the intern's school?",
+        validate: answer =>
+        {
+            if(answer)
+            {
+                return true;
+            }
+            else
+            {
+                console.log("Please enter the intern's school!");
+                return false;
+            }
+        }
     }
 ];
 
